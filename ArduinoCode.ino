@@ -50,4 +50,4 @@ void handleRequest() {
   serializeJson(jsonDoc, jsonString);
 
   server.send(200, "application/json", jsonString);
-}
+} 

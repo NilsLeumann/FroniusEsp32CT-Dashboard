@@ -109,4 +109,3 @@ except KeyboardInterrupt:
 finally:
     # Close the InfluxDB connection
     client.close()
- 

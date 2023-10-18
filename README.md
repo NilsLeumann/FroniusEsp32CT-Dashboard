@@ -5,7 +5,7 @@
 1. Connect the microcontroller for the sensors via USB to a PC.
 
 2. Upload the following script using Arduino IDE:
-   - Script Link: [ArduinoCode.ino](https://github.com/NilsLeumann/FroniusEsp32CT-Dasboard/blob/main/ArduinoCode.ino)
+   - Script Link: [ArduinoCode.ino](https://github.com/NilsLeumann/FroniusEsp32CT-Dashboard/blob/main/ArduinoCode.ino)
 
 ## Server Setup:
 
@@ -53,11 +53,11 @@
 
 5. Download the Python script to your server:
    ```
-   wget https://github.com/NilsLeumann/FroniusEsp32CT-Dasboard/blob/main/PythonCode.py
+   wget https://github.com/NilsLeumann/FroniusEsp32CT-Dashboard/blob/main/PythonCode.py
    ```
 
 6. Download the Grafana dashboard from GitHub onto your PC:
-   https://github.com/NilsLeumann/FroniusEsp32CT-Dasboard/blob/main/Grafana-Dashboard.json
+   https://github.com/NilsLeumann/FroniusEsp32CT-Dashboard/blob/main/Grafana-Dashboard.json
 
 7. Import the downloaded dashboard in Grafana and customize names and graphs as needed.
 

@@ -1,0 +1,8 @@
+from(bucket: "fronius_data")
+  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+  |> filter(fn: (r) =>
+      r["_measurement"] == "power_data" and
+      (r["_field"] == "ct_1_value" or
+      r["_field"] == "Voltage_AC_Phase_1_Zaehler" or
+      r["_field"] == "PowerFactor_Phase_1"))
+  |> aggregateWindow(every: (if int(v: v.windowPeriod) < int(v: 5s) then 5s else v.windowPeriod), fn: median)

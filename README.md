@@ -18,7 +18,7 @@
 
    - Install required packages:
      ```
-     apt install -y python3-pip curl net-tools
+     apt install -y pip curl net-tools
      ```
 
    - Install InfluxDB by following this tutorial: [InfluxDB Installation Guide](https://docs.influxdata.com/influxdb/v2/install/?t=Linux)

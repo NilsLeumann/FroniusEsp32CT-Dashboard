@@ -4,7 +4,7 @@
 
 1. Connect the microcontroller for the sensors via USB to a PC.
 
-2. Upload the following script using Arduino IDE:
+2. Upload, configure and execute the following script using Arduino IDE:
    - Script Link: [ArduinoCode.ino](https://github.com/NilsLeumann/FroniusEsp32CT-Dashboard/blob/main/ArduinoCode.ino)
 
 ## Server Setup:

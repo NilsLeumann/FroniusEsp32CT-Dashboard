@@ -59,7 +59,7 @@
 6. Download the Grafana dashboard from GitHub onto your PC:
    https://github.com/NilsLeumann/FroniusEsp32CT-Dashboard/blob/main/Grafana-Dashboard.json
 
-7. Import the downloaded dashboard in Grafana and customize names and graphs as needed.
+7. Import the downloaded dashboard in Grafana and customize names and graphs as needed and add InfluxDB as a Datasource.
 
 8. Customize the Python code file:
    ```

@@ -9,7 +9,7 @@
 
 ## Server Setup:
 
-1. Set up a fresh installation of Ubuntu 22.04 with root user privileges. You can follow these steps:
+1. Set up a fresh installation of Ubuntu 22.04 with root user privileges. Install all required software. You can follow these steps:
 
    - Update the package list and upgrade installed packages:
      ```
